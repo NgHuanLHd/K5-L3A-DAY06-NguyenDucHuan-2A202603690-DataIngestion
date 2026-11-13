@@ -8,3 +8,13 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# Tài liệu hướng dẫn cá nhân, không thuộc bài nộp
+HUONG_DAN_THUC_HANH.md
+
+# Chunk trung gian, tái tạo được bằng `python -m src.run --ingest-only`
+results/chunks_*.jsonl
+
+# Demo hỏi đáp tùy chọn (đề không yêu cầu chatbot)
+starter/src/chat_server.py
+starter/web/

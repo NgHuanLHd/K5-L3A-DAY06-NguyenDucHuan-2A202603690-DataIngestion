@@ -1,0 +1,23 @@
+{
+  "A/test": {
+    "N": 6,
+    "hit_at_1": 1,
+    "hit_at_3": 2,
+    "filter_questions": 2,
+    "filter_compliant": 0
+  },
+  "B/test": {
+    "N": 6,
+    "hit_at_1": 3,
+    "hit_at_3": 4,
+    "filter_questions": 2,
+    "filter_compliant": 0
+  },
+  "C/test": {
+    "N": 6,
+    "hit_at_1": 3,
+    "hit_at_3": 4,
+    "filter_questions": 2,
+    "filter_compliant": 2
+  }
+}

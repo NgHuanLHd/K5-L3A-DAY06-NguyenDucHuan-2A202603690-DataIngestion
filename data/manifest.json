@@ -1,0 +1,42 @@
+[
+  {
+    "source_id": "ts-2024-08",
+    "title": "Taking Stock, August 2024: Reaching New Heights in Capital Markets (Viet Nam Economic Update)",
+    "publisher": "World Bank",
+    "source_path_or_url": "data/raw/taking-stock-2024-08-en.pdf",
+    "url": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+    "download_url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/c77ca6bc-37b2-4b63-a64d-b36afb8a1227/content",
+    "license_or_permission": "CC BY-NC 3.0 IGO (theo metadata dc.rights trên World Bank Open Knowledge Repository)",
+    "accessed_at": "2026-11-13",
+    "version": "English PDF, OKR bitstream c77ca6bc-37b2-4b63-a64d-b36afb8a1227 (3,717,002 bytes)",
+    "physical_pages": 64,
+    "content_pages": "13-18,20-37,39-60",
+    "content_page_count": 46,
+    "page_rule": "Số trang vật lý PDF (bắt đầu từ 1). Loại: 1-12 (bìa, trang trống, bản quyền, mục lục, danh mục hình/bảng, viết tắt, lời cảm ơn, trang ngăn Overview), 19 và 38 (trang ngăn chương), 61-64 (bìa sau, trang trống).",
+    "metadata": {
+      "year": 2024,
+      "document_type": "economic_update",
+      "language": "en"
+    }
+  },
+  {
+    "source_id": "ts-2025-03",
+    "title": "Taking Stock, March 2025: Electrifying Journeys - E-mobility Transition in Viet Nam",
+    "publisher": "World Bank",
+    "source_path_or_url": "data/raw/taking-stock-2025-03-en.pdf",
+    "url": "https://openknowledge.worldbank.org/entities/publication/e59b9bce-8585-4978-ade8-54a1b27d1042",
+    "download_url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/9d53a06b-7302-4f9b-b78d-fb3b45d26caf/content",
+    "license_or_permission": "CC BY-NC 3.0 IGO (theo metadata dc.rights trên World Bank Open Knowledge Repository)",
+    "accessed_at": "2026-11-13",
+    "version": "TAKING STOCK March 2025_ENG_FINAL.pdf, OKR bitstream 9d53a06b-7302-4f9b-b78d-fb3b45d26caf (4,260,230 bytes)",
+    "physical_pages": 62,
+    "content_pages": "11-17,19-40,42-60",
+    "content_page_count": 48,
+    "page_rule": "Số trang vật lý PDF (bắt đầu từ 1). Loại: 1-10 (bìa, trang trống, bản quyền, mục lục, danh mục hình/bảng, viết tắt, lời cảm ơn), 18 và 41 (trang ngăn chương), 61-62 (trang trống, bìa sau).",
+    "metadata": {
+      "year": 2025,
+      "document_type": "economic_update",
+      "language": "en"
+    }
+  }
+]

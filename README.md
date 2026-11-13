@@ -45,3 +45,45 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+---
+
+## Bài làm — Nguyễn Đức Huân (2A202603690)
+
+Báo cáo: [report/individual/2A202603690_NguyenDucHuan.md](report/individual/2A202603690_NguyenDucHuan.md)
+
+| Thành phần | Đường dẫn |
+|---|---|
+| Corpus (2 PDF, CC BY-NC 3.0 IGO) | `data/raw/` |
+| Manifest | `data/manifest.json` |
+| Benchmark (23 câu, 17 dev / 6 test) | `benchmark/questions.jsonl` |
+| Pipeline | `starter/src/` |
+| Cấu hình A/B/C và kết quả | `artifacts/experiment_log.csv` |
+| Trace, chỉ số, nhãn chấm tay | `results/` |
+
+**Môi trường:** Python 3.11, Docker, `intfloat/multilingual-e5-small` (tải tự động lần đầu, ~470 MB), PostgreSQL 16 + pgvector 0.8.
+
+**Setup** (PowerShell, trong `starter/`):
+
+```bash
+py -3.11 -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+python -m pip install sentence-transformers
+Copy-Item .env.example .env   # đặt EMBEDDING_MODEL=intfloat/multilingual-e5-small
+docker compose -p day6_student_starter up -d --wait
+python scripts/check_setup.py
+```
+
+**Chạy** (trong `starter/`):
+
+```bash
+python -m src.run --check-benchmark           # kiểm tra benchmark và evidence
+python -m src.run --split dev                 # nạp A/B vào pgvector + truy xuất dev
+python -m src.run --split test --skip-ingest  # chạy test sau khi chọn cấu hình
+python -m src.audit make                      # tạo bảng chấm tay
+python -m src.audit summary                   # tổng hợp nhãn đã chấm
+```
+
+Phiên bản thư viện: `results/pip_freeze.txt`. Chi phí: 0 (model chạy cục bộ).

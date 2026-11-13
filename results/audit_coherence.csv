@@ -1,0 +1,113 @@
+﻿position,document_id,page,probe,strategy,chunk_id,chunk_text,score_0_2,reason,grader
+pos01,ts-2024-08,13,"grew 8.8 percent in H1-2024, driven by g",A,ts-2024-08:p0013:c003,"able, at 0.4 percentage points.
+Despite recovering, consumer spending remained below pre-pandemic rates. Retail sales grew 8.8
+percent in H1-2024, driven by goods sales on a stable trajectory since late 2022, but below a pre-pandemic
+average of 11.6 percent. Especially demand for durable and non-essential goods and services, such as
+vehicles, consumer appliances, holidays, and home renovations remains weak, suggesting persistent frailty
+in consumer confidence. Real income growth continues to be",1,"Ý chính về bán lẻ 8,8% còn nguyên, nhưng chunk mở đầu bằng mảnh câu 'able, at 0.4 percentage points.' và kết thúc giữa câu 'Real income growth continues to be'.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos01,ts-2024-08,13,"grew 8.8 percent in H1-2024, driven by g",B,ts-2024-08:p0013:c002,"Despite recovering, consumer spending remained below pre-pandemic rates. Retail sales grew 8.8 percent in H1-2024, driven by goods sales on a stable trajectory since late 2022, but below a pre-pandemic average of 11.6 percent. Especially demand for durable and non-essential goods and services, such as vehicles, consumer appliances, holidays, and home renovations remains weak, suggesting persistent frailty in consumer confidence. Real income growth continues to be muted at 2.5 percent (y/y) in June 2024, on par with annual 2.7 percent average growth since 2022 – but below pre-pandemic trends (8.4 percent). Similarly, formal employment remained relatively stable with a 0.4 percent (y/y) improvement in April 2024.",2,"Trọn đoạn về tiêu dùng: bán lẻ, thu nhập thực, việc làm; tự hiểu được.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos02,ts-2024-08,14,price premium that fueled informal gold ,A,ts-2024-08:p0014:c003,"nterest rate in Viet Nam, exacerbating capital outflows in search of
+better yields. In the meantime, given the strengthening dollar, the VND/US$ exchange rate weakened
+from VND 24,258 in December 2023 to VND 25,334 by the end of June 2024 on the market rate. Seeking
+another investment instrument, domestic demand for gold sharply increased (+28.6 percent (y/y)) which,
+combined with supply controls, led to a substantial price premium that fueled informal gold imports and
+purchases. Net errors and",1,"Câu về vàng còn nguyên, nhưng mở đầu giữa từ 'nterest rate' (mất nguyên nhân chênh lệch lãi suất) và cắt ở 'Net errors and'.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos02,ts-2024-08,14,price premium that fueled informal gold ,B,ts-2024-08:p0014:c002,"However, a continued interest rate differential and strengthening US dollar in H1-2024 increased unrecorded capital outflows leading to a negative external position. The gap between the Viet Nam dong and US dollar overnight rates remained substantial (166bps) in H1-2024 despite recent increases in the overnight interest rate in Viet Nam, exacerbating capital outflows in search of better yields. In the meantime, given the strengthening dollar, the VND/US$ exchange rate weakened from VND 24,258 in December 2023 to VND 25,334 by the end of June 2024 on the market rate. Seeking another investment instrument, domestic demand for gold sharply increased (+28.6 percent (y/y)) which, combined with supply controls, led to a substantial price premium that fueled informal gold imports and purchases.",2,Trọn chuỗi lập luận: chênh lệch lãi suất → dòng vốn ra → tỷ giá → nhu cầu vàng.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos03,ts-2024-08,15,"fees, and commissions. Meanwhile the cor",A,ts-2024-08:p0015:c004,"placing additional pressure on bank profitability already squeezed by a slowdown in
+net interest income, fees, and commissions.
+Meanwhile the corporate bond market showed signs of recovery. Corporate bond issuances
+increased by 2.5-fold in H1-2024 compared to the same period in 2023, as banks took advantage of the
+lower interest rate environment to refinance bonds. However, bonds maturing in the second half of 2024
+are estimated at VND 139.8 trillion (US$5.6 billion), with real estate bonds com",1,"Câu đầu thiếu chủ ngữ ('placing additional pressure…'), ghép hai ý khác nhau (lợi nhuận ngân hàng và trái phiếu) và cắt ở 'real estate bonds com'.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos03,ts-2024-08,15,"fees, and commissions. Meanwhile the cor",B,ts-2024-08:p0015:c002,"In addition, the expiration of pandemic forbearance measures, set to end in December 2024, may further increase NPL levels. Provisions for loan losses remain uneven among banks and in some cases, insufficient against rising bad debts. The potential need to increase provisioning, adding loan-loss reserves, is placing additional pressure on bank profitability already squeezed by a slowdown in net interest income, fees, and commissions.",2,"Vị trí probe nằm đúng ranh giới hai đoạn; chunk B kết thúc tự nhiên ở 'commissions.', đoạn về nợ xấu và dự phòng tự hiểu được.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos04,ts-2024-08,16,investment. The real estate market recov,A,ts-2024-08:p0016:c003,"eakening of macroeconomic stability could erode consumer confidence and
+impact consumption and investment. The real estate market recovery could take longer than expected,
+adversely impacting private sector investment. If the financial sector’s asset quality were to weaken
+further, bank lending capacity could be undermined. As one of the world’s most vulnerable countries
+to climate change, increasingly intensifying climate-related natural disasters could pose additional
+downside risks.
+Source: G",1,"Danh sách rủi ro hiểu được nhưng mất câu dẫn 'Among downside risks', mở đầu giữa từ 'eakening' và lẫn 'Source: G' ở cuối.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos04,ts-2024-08,16,investment. The real estate market recov,B,ts-2024-08:p0016:c002,"Among downside risks, the main uncertainties stem from slower-than-expected global growth, particularly among major trading partners such as the United States, European Union, and China. Such developments could impact Viet Nam’s manufacturing exports and weigh on growth. Domestically, a weakening of macroeconomic stability could erode consumer confidence and impact consumption and investment. The real estate market recovery could take longer than expected, adversely impacting private sector investment. If the financial sector’s asset quality were to weaken further, bank lending capacity could be undermined. As one of the world’s most vulnerable countries to climate change, increasingly intensifying climate-related natural disasters could pose additional downside risks.",2,"Trọn đoạn rủi ro giảm, có câu dẫn và đủ các rủi ro.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos05,ts-2024-08,17,"a high equity market capitalization, the",A,ts-2024-08:p0017:c003,"t indicators still indicate an opportunity for further growth. It is critical to look at three
+functions of financial intermediation that capital markets have, namely funding, savings, and pricing
+functions. Regarding funding, despite a high equity market capitalization, the amount of funds raised
+through the stock exchanges over the past five years has been relatively small. Fundraising through the
+bond markets was relatively more significant, especially corporate bonds; however, long-term fina",1,Câu probe nguyên vẹn nhưng mở đầu bằng 't indicators still…' và cắt ở 'long-term fina'.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos05,ts-2024-08,17,"a high equity market capitalization, the",B,ts-2024-08:p0017:c002,"However, when evaluated through its success in intermediating finance, Viet Nam’s capital market indicators still indicate an opportunity for further growth. It is critical to look at three functions of financial intermediation that capital markets have, namely funding, savings, and pricing functions. Regarding funding, despite a high equity market capitalization, the amount of funds raised through the stock exchanges over the past five years has been relatively small. Fundraising through the bond markets was relatively more significant, especially corporate bonds; however, long-term financing remains limited and weaknesses in the market foundations have been exposed recently.",2,Trọn đoạn về ba chức năng của thị trường vốn.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos06,ts-2024-08,18,drive corporate sector development. Life,A,ts-2024-08:p0018:c002,"tions and improve the pricing signals. Further, VSS diversification into corporate
+securities markets – stocks and bonds – would support development of these markets through investor
+diversity and provide relative market stability as a long-term investor. If properly implemented on a small
+and gradual basis, such diversification would increase returns on VSS investments in the long run.
+Other institutional investors should add their weight to drive corporate sector development.
+Life insurers are",1,"Mất chủ thể đầu đoạn (mở đầu 'tions and improve the pricing signals'), cắt ở 'Life insurers are'.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos06,ts-2024-08,18,drive corporate sector development. Life,B,ts-2024-08:p0018:c001,"VSS investment diversification would accelerate the modernization of Viet Nam’s financial system in several ways. It would remove it from a captive status in the government bond market, reduce market distortions and improve the pricing signals. Further, VSS diversification into corporate securities markets – stocks and bonds – would support development of these markets through investor diversity and provide relative market stability as a long-term investor. If properly implemented on a small and gradual basis, such diversification would increase returns on VSS investments in the long run.
+Other institutional investors should add their weight to drive corporate sector development.",2,Trọn đoạn về đa dạng hóa đầu tư của VSS (viết tắt VSS chưa giải nghĩa nhưng ý tự đầy đủ).,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos07,ts-2024-08,20,"were manufacturing production, export-or",A,ts-2024-08:p0020:c002,"upply side, GDP growth was led by increased manufacturing, export-oriented services,
+and tourism. Manufacturing output grew by 7 percent (y/y) in the first half of 2024 from a low base,
+representing a quarter of GDP growth compared to a 14 percent share in 2023. Services continued to account
+for more than half of GDP growth and climbed by 7.4 percent (y/y) in H1-2024 (Figure 1.2). The main drivers
+were manufacturing production, export-oriented services (transport and warehousing) as beneficiarie",1,"Phần lớn ý về tăng trưởng theo khu vực còn, nhưng mở đầu 'upply side' và câu probe bị cắt ở 'beneficiarie'.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos07,ts-2024-08,20,"were manufacturing production, export-or",B,ts-2024-08:p0020:c001,"I. Recent Economic Developments Driven by the rebound in external demand, industrial production and exportoriented services recovered On the supply side, GDP growth was led by increased manufacturing, export-oriented services, and tourism. Manufacturing output grew by 7 percent (y/y) in the first half of 2024 from a low base, representing a quarter of GDP growth compared to a 14 percent share in 2023. Services continued to account for more than half of GDP growth and climbed by 7.4 percent (y/y) in H1-2024 (Figure 1.2). The main drivers were manufacturing production, export-oriented services (transport and warehousing) as beneficiaries from a resurgence in goods exports, and the hospitality sector boosted by a growing number of foreign Agriculture Figure 1.1.",1,"Có tiêu đề và đủ đoạn, nhưng câu probe bị cắt ở cuối trang ('…a growing number of foreign') và lẫn nhãn biểu đồ 'Agriculture Figure 1.1.'.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos08,ts-2024-08,21,representing about 75 percent of FDI com,A,ts-2024-08:p0021:c002,"omestic private investment – close to 60 percent of total investment –contributed 3.9 percentage
+points (y/y) to investment growth in H1-2024, below its 4.7 percentage points contribution over
+2017–19. Foreign investments represented the largest increase in H1-2024 with 13 percent (y/y)
+growth, supported by an uptick in manufacturing investment, representing about 75 percent of FDI
+commitments. Meanwhile, public sector investment 4 growth eased in H1-2024 to 4 percent (y/y)
+compared to 20.5 perc",1,"Câu FDI nguyên vẹn, nhưng mở đầu giữa từ 'omestic' và cắt ở '20.5 perc'.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos08,ts-2024-08,21,representing about 75 percent of FDI com,B,ts-2024-08:p0021:c002,"Foreign investments represented the largest increase in H1-2024 with 13 percent (y/y) growth, supported by an uptick in manufacturing investment, representing about 75 percent of FDI commitments. Meanwhile, public sector investment 4 growth eased in H1-2024 to 4 percent (y/y) compared to 20.5 percent in H1-2023.",2,"Hai câu ngắn, trọn ý về FDI và đầu tư công; số chú thích '4' lẫn vào không làm sai nghĩa.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos09,ts-2024-08,22,H1-24 7.129.2 0.2 7.2 18.0 14.0 -11.3 4.,A,ts-2024-08:p0022:c003,"ivate
+TotalOther
+Public Foreign
+2017-19 H1-23 H1-24
+7.129.2
+0.2
+7.2
+18.0
+14.0
+-11.3
+4.1
+6.7
+1.8
+0.7
+0.6
+1.1
+2.1
+3.9
+1.6
+0.9
+4.7
+Figure 1.7. Growth in retail sales is stable but
+below pre-COVID trends…
+Retail sales growth (percent (y/y))
+Figure 1.8. …while durable goods sales are
+declining
+Sales of vehicles and motorcycles
+Source: GSO and World Bank staff calculations
+Total
+Goods VehiclesHotel & Restaurant MotorcyclesTourism
+Average 2017-2019Other
+40
+30
+20
+10
+0
+-10
+-20-20
+-10
+0
+10
+20
+30
+40
+Q1-19",0,Chỉ là chuỗi số và nhãn trục của Figure 1.6–1.8; không đọc được ý nào.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos09,ts-2024-08,22,H1-24 7.129.2 0.2 7.2 18.0 14.0 -11.3 4.,B,ts-2024-08:p0022:c003,"Figure 1.5. Merchandise export growth has rebounded, driven by electronics Contribution to good export growth (percentage points, (y/y)) Figure 1.6. Private investment is recovering Contribution to real investment growth (percentage points, y/y) -20 -10 0 10 20 30 6M-19 6M-20 6M-21 6M-22 6M-23 6M-24H1-19 H1-20 H1-21 H1-22 H1-23 H1-24 2017-19 H1-23 H1-24 Average 30 20 10 0 -10 -20 Source: GSO and World Bank staff calculations Electronics MetalsAgriculture Machinery Textiles & Garments Others Footwear Total exports Domestic private TotalOther Public Foreign 2017-19 H1-23 H1-24 7.129.2 0.2 7.2 18.0 14.0 -11.3 4.1 6.7 1.8 0.7 0.6 1.1 2.1 3.9 1.6 0.9 4.7 Figure 1.7. Growth in retail sales is stable but below pre-COVID trends… Retail sales growth (percent (y/y)) Figure 1.8.",0,Cũng là dữ liệu biểu đồ bị pypdf làm phẳng (Figure 1.5–1.8); không có câu văn mang nghĩa.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos10,ts-2024-08,23,an index of manufacturing production cap,A,ts-2024-08:p0023:c002,"res 1.10 and 1.11).
+5 The PMI is an indicator of manufacturing orders based on surveys of manufacturing firms’ purchasing managers. The IPI is an index of
+manufacturing production capacity based on the level of industrial output.
+Source: InFocus Mekong survey and World Bank staff calculations
+Note: * indicates purchase intent, other items show the share of respondents reporting an increase in real consumption
+Figure 1.9. Lower consumer confidence is cooling demand for non-essential goods
+Reporte",1,"Hai câu định nghĩa PMI/IPI hiểu được, nhưng mở đầu 'res 1.10 and 1.11).' và lẫn nguồn, chú thích của Figure 1.9.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+pos10,ts-2024-08,23,an index of manufacturing production cap,B,ts-2024-08:p0023:c001,"Manufacturing production improvements were driven by the electronics sector (+39pp (y/y)) increase in the IPI in June 2024), petroleum (+34pp) and metal products (+45pp). Footwear and textiles production also climbed from a low base (Figures 1.10 and 1.11).
+5 The PMI is an indicator of manufacturing orders based on surveys of manufacturing firms’ purchasing managers. The IPI is an index of manufacturing production capacity based on the level of industrial output.
+Source: InFocus Mekong survey and World Bank staff calculations Note: * indicates purchase intent, other items show the share of respondents reporting an increase in real consumption Figure 1.9.",1,"Đoạn về sản xuất và định nghĩa IPI hiểu được, nhưng lẫn ghi chú nguồn và chú thích biểu đồ Figure 1.9 ở cuối.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"

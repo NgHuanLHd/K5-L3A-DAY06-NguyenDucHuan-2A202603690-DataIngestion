@@ -1,0 +1,349 @@
+﻿strategy,qid,question,expected_answer,top3,score_0_2,reason,grader
+A,q18,"According to the 2025 Taking Stock report, how much did the dong depreciate against the US dollar?","4.4 percent (y/y) by December 2024, to VND25,333 per US$","[taking-stock-2024-08-en.pdf p14] ed the central rate by 1.2
+percent between January and June 2024, allowing the market rate to depreciate further by 3.6 percent
+in the same period. It used foreign exchange interventions to mediate depreciation pressures against the
+dong and foreign exchange reserves were estimated to have fallen from US$90 billion in December 2023
+to around US$83–84 billion by the end of June 2024 (equivalent to 2.7 months of imports). In addition, the
+SBV began withdrawing liquidity from the interbank market i
+---
+[taking-stock-2024-08-en.pdf p28] ing foreign reserves. The SBV depreciated the central rate by 1.2
+percent between January and June 2024, allowing the market rate to depreciate further by 3.6 percent in
+the same period (Figure 1.21). It used foreign exchange interventions to mediate depreciation pressures
+against the dong. By the end of June 2024, foreign exchange reserves are estimated to have fallen from
+US$90 billion in December 2023 to around US$83-84 billion, equivalent to 2.7 months of imports (Figure
+1.23). In addition,
+---
+[taking-stock-2025-03-en.pdf p30] 20 I TAKING STOCK MARCH 2025
+Figure 1.22. Continued pressure on the
+exchange rate led to depreciation
+Figure 1.23. SBV managed a gradual
+depreciation by selling foreign reserves
+VND/US$ Foreign reserves, US$ billion
+22,000
+23,000
+24,000
+25,000
+26,000
+Dec-22 Jun-23 Dec-23 Jun-24 Dec-24
+Central rate Market rate
+2.00
+2.50
+3.00
+3.50
+4.00
+80
+85
+90
+95
+100
+105
+110
+
+Stock of foreign reserves
+Months of imports (RHS)
+Q1-22
+Q2-22
+Q3-22
+Q4-22
+Q3-23
+Q4-23
+Q1-23
+Q2-23
+Q2-24
+Q1-24
+Q3-24
+Source: SBV and World B",0,"Top-3 không có con số 4,4%: hai chunk báo cáo 2024 nói mất giá 3,6% trong H1-2024 (sai báo cáo), chunk 2025 p30 chỉ là số liệu biểu đồ.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+A,q19,"In the 2024 Taking Stock report, how is inflation projected to change through 2026?",Slowing from 4.5 percent in 2024 to 3.5 percent in 2026,"[taking-stock-2024-08-en.pdf p35] y
+2024 is expected to have a marginal impact on headline inflation given the limited size of the public sector
+in overall employment (two million, 3.8 percent of total employment16). Over the medium term, inflation
+is forecast to return to its historical average of 3.5 percent.
+The current account is projected to maintain a surplus in 2024, primarily driven by the
+merchandise trade balance. The current account balance is projected to register a small surplus in 20242026, driven by the continued
+---
+[taking-stock-2025-03-en.pdf p37] m’s largest trade partners – and uncertain global trade prospects given expected shifts in trade
+policy. Domestic activities and services are expected to continue to firm up in 2025 and into 2026 as
+the real estate market recovery gathers steam.
+Headline inflation is set to remain within target, but authorities should remain vigilant. Food
+prices have stabilized, inflation remained anchored in 2024 and should remain stable at 3.5 percent
+over 2025-26 below target of 4.5-5 percent for 2025. Despi
+---
+[taking-stock-2025-03-en.pdf p38] 28 I TAKING STOCK MARCH 2025
+is expected to have a marginal impact on headline inflation given the limited size of the public sector
+in overall employment (3.8 percent of total employment 21).
+Foreign investment and trade turnover are expected to remain important drivers of growth over
+2025–26, but with heightened uncertainty. The current account is projected to maintain a surplus,
+primarily driven by the merchandise trade balance. FDI inflows are expected to remain stable in the
+short- to mediu",1,"#1 (2024 p35) có ý lạm phát trở về 3,5% trung hạn nhưng thiếu mốc 4,5% năm 2024 và năm 2026; #2 là báo cáo 2025 (sai năm).","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+A,q20,When are yearly purchases of cars expected to catch up with motorbike purchases?,Around 2035 (sales parity between passenger cars and two-wheelers),"[taking-stock-2024-08-en.pdf p22] Q2-24
+Q2-22
+Q3-22
+Q3-20
+Q3-19
+Q1-19
+Q3-23
+Q3-21
+Q4-22
+Q4-20
+Q4-19
+Q2-19
+Q4-23
+Q4-21
+Q1-23
+Q1-21
+Q1-20
+Q1-24
+Q1-22
+Q2-23
+Q2-21
+Q2-20
+Q2-22
+Vehicles Motorcycles
+40
+60
+80
+100
+120
+140
+160
+Q1-19
+Q2-19
+Q3-19
+Q4-19
+Q1-20
+Q2-20
+Q3-20
+Q4-20
+Q1-21
+Q2-21
+Q3-21
+Q4-21
+Q1-22
+Q2-22
+Q3-22
+Q4-22
+Q1-23
+Q2-23
+Q3-23
+Q4-23
+Q1-24
+Thousands
+of units
+Index (100=2018, seasonally adjusted)
+Vehicles Motorcycles Vehicles Motorcycles
+161
+84 85
+75
+604635
+567399
+754701731
+6180
+754
+75
+Thousands of units
+160
+140
+120
+100
+80
+60
+---
+[taking-stock-2025-03-en.pdf p44] 34 I TAKING STOCK MARCH 2025
+Figure 2.2. Motorization rate for two-wheelers and passenger cars 2010–2022
+254
+357
+518
+4 10 22
+0
+100
+200
+300
+400
+500
+600
+2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
+Active Two-wheelers Active Passenger cars
+Source: World Bank calculations
+Transitioning into electric motorbikes and leapfrogging into
+EV cars
+Between 2024 and 2035, Viet Nam’s e-mobility transition will primarily be driven by the transition
+of the two-wheeler (2W) segment to electri
+---
+[taking-stock-2024-08-en.pdf p46] 9). In its attempt to keep borrowing costs low, the MoF sometimes
+cancels an issuance if buyers bid at higher yields than its preference, which often occurs when secondary
+market yields increase. Between January 2020 and December 2023, for example, the MoF rejected all bids
+in 20 percent of auctions. Cumulatively, these issues contribute to distortions in the pricing functions of
+the government bond market.
+The government bond portfolio is also highly fragmented, as numerous bonds have similar
+m",0,Không chunk nào nêu năm cân bằng doanh số ô tô và xe máy (2035); #2 nói về giai đoạn 2024–2035 nhưng không có ý parity.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+A,q21,"If the power grid mix stayed at its 2022 level, would switching to EVs still reduce emissions by 2050, and by how much?","Yes, a net reduction of 2.2 million tons CO2eq by 2050 thanks to EVs' higher energy efficiency","[taking-stock-2025-03-en.pdf p53] ansition would total around 226 MtCO2eq by 2050, representing a 60 percent reduction from the
+Nationally Determined Contribution (NDC) baseline scenario for transport emissions. Under ADS, total
+emission reductions could be slightly higher at 249 MtCO2eq, representing a 66 percent reduction from
+the baseline.
+Switching from ICE to electric vehicles could generate significant emissions reductions, even with
+the current power grid mix, due to the latter’s much higher energy efficiency. If the grid
+---
+[taking-stock-2025-03-en.pdf p54] vs - SPS Emissions Added from Electricity G/D for Evs - ADS
+Source: World Bank calculations
+greening of the power grid is fully achieved as per PDP8, net emission reductions from the transition
+would be 5.3 million tons CO2eq by 2050 (Figure 2.6). Hence, emissions from generating, transmitting,
+and distributing electricity from the power system for EV charging could be easily offset by avoided
+fossil fuel combustion from ICE vehicles.
+---
+[taking-stock-2025-03-en.pdf p53] r the SPS
+and ADS scenarios, respectively. This limited impact is due to the majority of electrified vehicles being
+e-2Ws by 2030 (Figure 2.5).
+Beyond 2030 and particularly from 2035, emission reduction impacts will rapidly scale-up as the
+e-mobility transition shifts from 2Ws to passenger cars, trucks, and intercity buses. Assuming all
+stated EV uptake targets included in Decision 876 materialize, total GHG emission reductions achieved
+by the transition would total around 226 MtCO2eq by 2050, r",1,"#1 đúng trang 53 và trả lời được 'có' (giảm phát thải ngay cả với lưới điện hiện tại) nhưng bị cắt trước con số 2,2 triệu tấn CO2eq.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+A,q22,"Under Decision 876, what share of urban vehicles and of urban buses and taxis must use electricity or green energy by 2030?",50 percent of urban vehicles and 100 percent of urban buses and taxis,"[taking-stock-2025-03-en.pdf p43] electricity or green energy
+by 2030 and subsequently 100 percent of all road vehicles by 2050. The decision also sets targets on
+charging infrastructure network development and EV production and assembly (Table 2.1).
+Table 2.1. Measures and targets for electrifying the road transport sector in
+Government Decision 876/QD-TTg
+Urban
+Transport
+General
+Road
+At least 50% of urban vehicles use electricity and green energy.
+100% of replaced and newly invested urban buses will use electricity
+and green e
+---
+[taking-stock-2025-03-en.pdf p43] ntal and economic imperatives, the government has set targets for electric
+mobility (-mobility) by 2050 related to electrification of vehicle stocks, production, and charging
+infrastructure. In July 2022, the prime minister approved Decision No.876/QD-TTg setting targets to
+transition the road transportation sector towards e-mobility through use of EVs, namely 50 percent of
+urban vehicles and 100 percent of urban buses and taxis to be powered by electricity or green energy
+by 2030 and subsequent
+---
+[taking-stock-2025-03-en.pdf p17] EV Value Chain, of which 61
+percent from the EV charging infrastructure
+industry.
+A set of recommendations were developed
+to help the Government of Viet Nam
+achieve its targets for E-mobility transition.
+The targets set under the Decision 876/
+QD-TTg related to transitioning the road
+transportation sector towards electric
+mobility (E-Mobility) using electric vehicles
+(EVs) – to have 50 percent of urban
+vehicles and 100 urban buses and taxi to
+be powered by electricity or green energy
+by 2030, an",2,"#2 chứa đủ 50% xe đô thị và 100% xe buýt, taxi đô thị vào 2030 theo Quyết định 876.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+A,q23,How large was the asset base of life insurers at the end of 2023?,"VND 786 trillion (US$31 billion), about 8 percent of GDP","[taking-stock-2024-08-en.pdf p52] 2023, the life insurance sector held VND 786 trillion (US$31 billion) in total assets, with a
+strong average annual growth rate of 20 percent in the last five years. Equivalent to 8 percent of GDP,
+it is the second largest type of domestic institutional investor in Viet Nam.
+Despite its potential to help drive capital markets development, life insurance sector
+investments are heavily concentrated in government bonds and bank deposits. Combined
+holdings in these either low-yielding or short-term
+---
+[taking-stock-2024-08-en.pdf p52] 7
+12,881
+8,382
+614,771
+40.5
+39.6
+4.4
+11.9
+0.1
+0.0
+2.1
+0.0
+100
+VND bnAsset classes
+Life Insurer Investments
+%
+Table 2.2. Investment assets of life insurers, Dec 2022
+Source: Insurance Supervisory Authority
+---
+[taking-stock-2024-08-en.pdf p52] run. Externally, this
+would not only reduce distortions in the government bond market, but it would also encourage growth in
+other markets it invests in, which are currently deprived of stable and large long-term investors.
+2.2. Insurance companies
+Insurance companies could play an impactful role in capital markets, in particular life insurance
+firms that must invest in long-term instruments to support matching long-term liabilities. By
+December 2023, the life insurance sector held VND 786 tril",2,"#1 chứa VND 786 nghìn tỷ (US$31 tỷ), tương đương 8% GDP.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+B,q18,"According to the 2025 Taking Stock report, how much did the dong depreciate against the US dollar?","4.4 percent (y/y) by December 2024, to VND25,333 per US$","[taking-stock-2024-08-en.pdf p28] In response, the SBV allowed for a gradual depreciation of the VND-US$ exchange rate while withdrawing liquidity and selling foreign reserves. The SBV depreciated the central rate by 1.2 percent between January and June 2024, allowing the market rate to depreciate further by 3.6 percent in the same period (Figure 1.21). It used foreign exchange interventions to mediate depreciation pressures against the dong. By the end of June 2024, foreign exchange reserves are estimated to have fallen from US$90 billion in December 2023 to around US$83-84 billion, equivalent to 2.7 months of imports (Figure 1.23). In addition, the SBV began withdrawing liquidity from the interbank market in mid-March 2024, by issuing a higher SBV bill rate (4.25 percent).
+---
+[taking-stock-2025-03-en.pdf p30] 20 I TAKING STOCK MARCH 2025 Figure 1.22. Continued pressure on the exchange rate led to depreciation Figure 1.23. SBV managed a gradual depreciation by selling foreign reserves VND/US$ Foreign reserves, US$ billion 22,000 23,000 24,000 25,000 26,000 Dec-22 Jun-23 Dec-23 Jun-24 Dec-24 Central rate Market rate 2.00 2.50 3.00 3.50 4.00 80 85 90 95 100 105 110
+---
+[taking-stock-2024-08-en.pdf p14] The SBV responded to emerging exchange rate pressures through a combination of gradual devaluation, FX interventions, and tighter liquidity. The SBV depreciated the central rate by 1.2 percent between January and June 2024, allowing the market rate to depreciate further by 3.6 percent in the same period. It used foreign exchange interventions to mediate depreciation pressures against the dong and foreign exchange reserves were estimated to have fallen from US$90 billion in December 2023 to around US$83–84 billion by the end of June 2024 (equivalent to 2.7 months of imports). In addition, the SBV began withdrawing liquidity from the interbank market in mid-March 2024 by issuing a higher SBV bill rate (4.25 percent).",0,"Như A: chỉ có số liệu mất giá H1-2024 của báo cáo 2024 và biểu đồ; thiếu 4,4% đến 12/2024.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+B,q19,"In the 2024 Taking Stock report, how is inflation projected to change through 2026?",Slowing from 4.5 percent in 2024 to 3.5 percent in 2026,"[taking-stock-2024-08-en.pdf p35] Over the medium term, inflation is forecast to return to its historical average of 3.5 percent.
+The current account is projected to maintain a surplus in 2024, primarily driven by the merchandise trade balance. The current account balance is projected to register a small surplus in 20242026, driven by the continued growth in goods exports, with contributions from tourism and transport services. FDI inflows are expected to remain stable in the short- to medium-terms, reflecting foreign investors’ sustained interest in Viet Nam.
+---
+[taking-stock-2025-03-en.pdf p37] Headline inflation is set to remain within target, but authorities should remain vigilant. Food prices have stabilized, inflation remained anchored in 2024 and should remain stable at 3.5 percent over 2025-26 below target of 4.5-5 percent for 2025. Despite continued conflicts in Ukraine and the Middle East, oil and commodity price inflation is projected to continue easing. The planned payment packages linked to the reduction in the number of public servants as part of ministerial streamlining
+---
+[taking-stock-2024-08-en.pdf p16] With continued export growth and signs of a real estate recovery, domestic demand is set to firm up in H2-2024 as investor and consumer sentiment improve.
+The current account balance is projected to retain a small surplus, while the government resumes fiscal consolidation, and projected inflation slows from 4.5 percent in 2024 to 3.5 percent in 2026.",2,"#3 (2024 p16) chứa nguyên câu lạm phát giảm từ 4,5% năm 2024 xuống 3,5% năm 2026.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+B,q20,When are yearly purchases of cars expected to catch up with motorbike purchases?,Around 2035 (sales parity between passenger cars and two-wheelers),"[taking-stock-2024-08-en.pdf p22] otorcycles 40 60 80 100 120 140 160 Q1-19 Q2-19 Q3-19 Q4-19 Q1-20 Q2-20 Q3-20 Q4-20 Q1-21 Q2-21 Q3-21 Q4-21 Q1-22 Q2-22 Q3-22 Q4-22 Q1-23 Q2-23 Q3-23 Q4-23 Q1-24 Thousands of units Index (100=2018, seasonally adjusted) Vehicles Motorcycles Vehicles Motorcycles 161 84 85 75 604635 567399 754701731 6180 754 75 Thousands of units 160 140 120 100 80 60 40 Index (100=2018, seasonally adjusted)
+---
+[taking-stock-2025-03-en.pdf p45] Figure 2.3. Projected vehicle annual sales by segments 2023–50 (units) 0 1,000,000 2,000,000 3,000,000 4,000,000 5,000,000 6,000,000 7,000,000 8,000,000 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 2046 2047 2048 2049 2050 Total two-wheelers (2Ws) Total passenger cars (PCs) Trucks Buses and Coaches Annual Sales of PCs Reach Parity with 2Ws Source: World Bank calculations
+---
+[taking-stock-2024-08-en.pdf p22] …while durable goods sales are declining Sales of vehicles and motorcycles Source: GSO and World Bank staff calculations Total Goods VehiclesHotel & Restaurant MotorcyclesTourism Average 2017-2019Other 40 30 20 10 0 -10 -20-20 -10 0 10 20 30 40 Q1-19 Q2-19 Q3-19 Q4-19 Q1-20 Q2-20 Q3-20 Q4-20 Q1-21 Q2-21 Q3-21 Q4-21 Q1-22 Q2-22 Q3-22 Q4-22 Q1-23 Q2-23 Q3-23 Q4-23 Q1-24 Q2-24 Goods Hotel & Restaurant Tourism Others Total Average 2017-2019 41.2 17.1 12.5 4.6 -2.8 5.54.78.04.43.0 -7.3 -19.7 12.512.19.311.9 13.28.8 7.3 9.3 8.4 8.8 Q3-22 Q3-20 Q3-19 Q1-19 Q3-23 Q3-21 Q4-22 Q4-20 Q4-19 Q2-19 Q4-23 Q4-21 Q1-23 Q1-21 Q1-20 Q1-24 Q1-22 Q2-23 Q2-21 Q2-20 Q2-24 Q2-22 Q3-22 Q3-20 Q3-19 Q1-19 Q3-23 Q3-21 Q4-22 Q4-20 Q4-19 Q2-19 Q4-23 Q4-21 Q1-23 Q1-21 Q1-20 Q1-24 Q1-22 Q2-23 Q2-21 Q2-20 Q2-22 Vehicles M",1,#2 là biểu đồ Figure 2.3 có chú thích 'Annual Sales of PCs Reach Parity with 2Ws' nhưng không nêu năm; phải đọc biểu đồ mới ra 2035.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+B,q21,"If the power grid mix stayed at its 2022 level, would switching to EVs still reduce emissions by 2050, and by how much?","Yes, a net reduction of 2.2 million tons CO2eq by 2050 thanks to EVs' higher energy efficiency","[taking-stock-2025-03-en.pdf p53] Switching from ICE to electric vehicles could generate significant emissions reductions, even with the current power grid mix, due to the latter’s much higher energy efficiency. If the grid mix remained unchanged from 2022’s level, the e-mobility transition alone would still generate a net emissions reduction of 2.2 million tons CO2eq by 2050 thanks to EVs’ higher energy efficiency. In addition, if 2.5 Impact on GHG emissions Figure 2.5.
+---
+[taking-stock-2025-03-en.pdf p53] Beyond 2030 and particularly from 2035, emission reduction impacts will rapidly scale-up as the e-mobility transition shifts from 2Ws to passenger cars, trucks, and intercity buses. Assuming all stated EV uptake targets included in Decision 876 materialize, total GHG emission reductions achieved by the transition would total around 226 MtCO2eq by 2050, representing a 60 percent reduction from the Nationally Determined Contribution (NDC) baseline scenario for transport emissions. Under ADS, total emission reductions could be slightly higher at 249 MtCO2eq, representing a 66 percent reduction from the baseline.
+---
+[taking-stock-2025-03-en.pdf p54] 44 I TAKING STOCK MARCH 2025 Figure 2.6. Emissions in e-mobility transition through to 2030 under BAU, SPS, and ADS (MtCO2eq) -14 -12 -10 -8 -6 -4 -2 0 2 4 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 Emissions Avoided from ICE Fuel Combustion - BAU Emissions Avoided from ICE Fuel Combustion -SPS Emissions Avoided from ICE Fuel Combustion - ADS Emissions Added from Electricity G/D for EVs - BAU Emissions Added from Electricity G/D for Evs - SPS Emissions Added from Electricity G/D for Evs - ADS Source: World Bank calculations greening of the power grid is fully achieved as per PDP8, net emission reductions from the transition would be 5.3 million tons CO2eq by 2050 (Figure 2.6).",2,"#1 chứa trọn câu: lưới điện giữ mức 2022 vẫn giảm ròng 2,2 triệu tấn CO2eq đến 2050.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+B,q22,"Under Decision 876, what share of urban vehicles and of urban buses and taxis must use electricity or green energy by 2030?",50 percent of urban vehicles and 100 percent of urban buses and taxis,"[taking-stock-2025-03-en.pdf p43] Responding to environmental and economic imperatives, the government has set targets for electric mobility (-mobility) by 2050 related to electrification of vehicle stocks, production, and charging infrastructure. In July 2022, the prime minister approved Decision No.876/QD-TTg setting targets to transition the road transportation sector towards e-mobility through use of EVs, namely 50 percent of urban vehicles and 100 percent of urban buses and taxis to be powered by electricity or green energy by 2030 and subsequently 100 percent of all road vehicles by 2050. The decision also sets targets on charging infrastructure network development and EV production and assembly (Table 2.1).
+---
+[taking-stock-2025-03-en.pdf p43] Table 2.1. Measures and targets for electrifying the road transport sector in Government Decision 876/QD-TTg Urban Transport General Road At least 50% of urban vehicles use electricity and green energy.
+100% of replaced and newly invested urban buses will use electricity and green energy.
+100% of replaced and newly invested taxis will use electricity and green energy.
+100% of urban buses and taxi will use electricity and green energy.
+Promote the production, assembly, import and use of electric motorized road vehicles.
+Develop charging infrastructure networks.
+Limit the production, assembly and import of cars, motorbikes and mopeds using fossil fuel for domestic use.
+100% of road motorized vehicles will use electricity and green energy.
+---
+[taking-stock-2025-03-en.pdf p46] Given the costly endeavor of converting old fleets into electrical buses (e-buses), for the switch to be financially viable, it must be pursued in parallel with shifting passenger mobility demand from private vehicles.
+Uptake of public transport will need strong policy interventions to address current roadblocks. For Ha Noi and Ho Chi Minh City to achieve their respective mode share targets under Decision No.876, they will need 6,000 and 4,500 more e-buses, respectively by 2030. Key obstacles to achieving these targets include high upfront purchase costs of e-buses vis-à-vis diesel and compressed natural gas ones, the lack of technical and operational frameworks among city governments for battery electric buses and risks of low ridership due to infrastructure and policy gaps.",2,#1 chứa đủ hai tỷ lệ của Quyết định 876.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+B,q23,How large was the asset base of life insurers at the end of 2023?,"VND 786 trillion (US$31 billion), about 8 percent of GDP","[taking-stock-2024-08-en.pdf p52] 2.2. Insurance companies Insurance companies could play an impactful role in capital markets, in particular life insurance firms that must invest in long-term instruments to support matching long-term liabilities. By December 2023, the life insurance sector held VND 786 trillion (US$31 billion) in total assets, with a strong average annual growth rate of 20 percent in the last five years. Equivalent to 8 percent of GDP, it is the second largest type of domestic institutional investor in Viet Nam.
+---
+[taking-stock-2024-08-en.pdf p52] Addressing these problems in the corporate securities market will imbue more confidence in insurance companies to diversify which, in turn, will help the corporate securities market grow more healthily.
+Deposits Government bonds Unsecured corporate bonds, shares, and investment funds Secured corporate bonds Capital contributions Real estate Loans Other Total investment assets 249,236 243,252 73,226 26,891 836 67 12,881 8,382 614,771 40.5 39.6 4.4 11.9 0.1 0.0 2.1 0.0 100 VND bnAsset classes Life Insurer Investments % Table 2.2. Investment assets of life insurers, Dec 2022 Source: Insurance Supervisory Authority
+---
+[taking-stock-2025-03-en.pdf p32] Corporate bond issuances rebounded from low levels in 2023, driven by the banking sector’s additional need for funding. Total issuances reached VND443 trillion (US$17.6 billion) in 2024, a 37 percent (y/y) rise. The banking sector accounted for issuances, with 69 percent of total issuances, representing a 103 percent (y/y) annual jump (Figure 1.28). The real estate sector, after a period of dampened activity, experienced a recovery in Q4–2024, which led to 26 percent (y/y) growth in issuances. Other sectors, such as consumer goods and construction, saw negligible issuances. Coupon rates averaged 7.5 percent in Q4–2024, slightly higher than the previous quarter, reflecting a higher proportion of real estate bond issuance with higher yields.",2,"#1 chứa VND 786 nghìn tỷ (US$31 tỷ), 8% GDP.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+C,q18,"According to the 2025 Taking Stock report, how much did the dong depreciate against the US dollar?","4.4 percent (y/y) by December 2024, to VND25,333 per US$","[taking-stock-2025-03-en.pdf p30] 20 I TAKING STOCK MARCH 2025 Figure 1.22. Continued pressure on the exchange rate led to depreciation Figure 1.23. SBV managed a gradual depreciation by selling foreign reserves VND/US$ Foreign reserves, US$ billion 22,000 23,000 24,000 25,000 26,000 Dec-22 Jun-23 Dec-23 Jun-24 Dec-24 Central rate Market rate 2.00 2.50 3.00 3.50 4.00 80 85 90 95 100 105 110
+---
+[taking-stock-2025-03-en.pdf p32] The value of bonds maturing in 2025 is VND217 trillion (US$8.6 billion), with around half issued by the real estate sector.
+Under-disbursement of public investment led to fiscal consolidation Increased total revenues were driven by greater land sales, while tax revenues remained stable (Figure 1.29). Overall, total revenues reached 17.7 percent of GDP in 2024, up 17.2 percent in 2023. Tax revenues remained unchanged (12.4 percent) from 2023, with VAT revenue stable at 4.1 percent of GDP in 2024 as the government extended a VAT rate cut to 8 percent started in 2022 until June 30, 2025.
+Increased overall revenues were attributed to more land sales, with non-tax revenue reaching 5.3 percent of GDP (+0.5 percent from 2023).
+---
+[taking-stock-2025-03-en.pdf p12] ii I TAKING STOCK MARCH 2025 19.3 percent in 2023, when the 2022–23 post-pandemic fiscal stimulus package was implemented.",0,"Lọc đúng năm 2025 nhưng top-3 (p30 biểu đồ, p32 trái phiếu và thu ngân sách, p12 mảnh câu) không chứa bằng chứng ở trang 13.","Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+C,q19,"In the 2024 Taking Stock report, how is inflation projected to change through 2026?",Slowing from 4.5 percent in 2024 to 3.5 percent in 2026,"[taking-stock-2024-08-en.pdf p35] Over the medium term, inflation is forecast to return to its historical average of 3.5 percent.
+The current account is projected to maintain a surplus in 2024, primarily driven by the merchandise trade balance. The current account balance is projected to register a small surplus in 20242026, driven by the continued growth in goods exports, with contributions from tourism and transport services. FDI inflows are expected to remain stable in the short- to medium-terms, reflecting foreign investors’ sustained interest in Viet Nam.
+---
+[taking-stock-2024-08-en.pdf p16] With continued export growth and signs of a real estate recovery, domestic demand is set to firm up in H2-2024 as investor and consumer sentiment improve.
+The current account balance is projected to retain a small surplus, while the government resumes fiscal consolidation, and projected inflation slows from 4.5 percent in 2024 to 3.5 percent in 2026.
+---
+[taking-stock-2024-08-en.pdf p35] In Viet Nam, headline inflation is forecast to continue rising in 2024 to 4.5 percent, up from 3.2 percent a year earlier, as higher food prices are expected to persist. This forecast reflects the recent surge in food prices, contributing most to recent inflation in H1-2024, and expected to continue to rise as African swine fever outbreaks spread nationwide despite measures to strengthen control and prevention.15 Despite continued conflicts in Ukraine and the Middle East, oil and commodity price inflation is projected to continue easing over 2024. The increase in public wages and pensions in July 2024 is expected to have a marginal impact on headline inflation given the limited size of the public sector in overall employment (two million, 3.8 percent of total employment16).",2,#2 (2024 p16) chứa đủ bằng chứng; cả top-3 thuộc báo cáo 2024 đúng filter.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+C,q20,When are yearly purchases of cars expected to catch up with motorbike purchases?,Around 2035 (sales parity between passenger cars and two-wheelers),"[taking-stock-2024-08-en.pdf p22] otorcycles 40 60 80 100 120 140 160 Q1-19 Q2-19 Q3-19 Q4-19 Q1-20 Q2-20 Q3-20 Q4-20 Q1-21 Q2-21 Q3-21 Q4-21 Q1-22 Q2-22 Q3-22 Q4-22 Q1-23 Q2-23 Q3-23 Q4-23 Q1-24 Thousands of units Index (100=2018, seasonally adjusted) Vehicles Motorcycles Vehicles Motorcycles 161 84 85 75 604635 567399 754701731 6180 754 75 Thousands of units 160 140 120 100 80 60 40 Index (100=2018, seasonally adjusted)
+---
+[taking-stock-2025-03-en.pdf p45] Figure 2.3. Projected vehicle annual sales by segments 2023–50 (units) 0 1,000,000 2,000,000 3,000,000 4,000,000 5,000,000 6,000,000 7,000,000 8,000,000 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 2045 2046 2047 2048 2049 2050 Total two-wheelers (2Ws) Total passenger cars (PCs) Trucks Buses and Coaches Annual Sales of PCs Reach Parity with 2Ws Source: World Bank calculations
+---
+[taking-stock-2024-08-en.pdf p22] …while durable goods sales are declining Sales of vehicles and motorcycles Source: GSO and World Bank staff calculations Total Goods VehiclesHotel & Restaurant MotorcyclesTourism Average 2017-2019Other 40 30 20 10 0 -10 -20-20 -10 0 10 20 30 40 Q1-19 Q2-19 Q3-19 Q4-19 Q1-20 Q2-20 Q3-20 Q4-20 Q1-21 Q2-21 Q3-21 Q4-21 Q1-22 Q2-22 Q3-22 Q4-22 Q1-23 Q2-23 Q3-23 Q4-23 Q1-24 Q2-24 Goods Hotel & Restaurant Tourism Others Total Average 2017-2019 41.2 17.1 12.5 4.6 -2.8 5.54.78.04.43.0 -7.3 -19.7 12.512.19.311.9 13.28.8 7.3 9.3 8.4 8.8 Q3-22 Q3-20 Q3-19 Q1-19 Q3-23 Q3-21 Q4-22 Q4-20 Q4-19 Q2-19 Q4-23 Q4-21 Q1-23 Q1-21 Q1-20 Q1-24 Q1-22 Q2-23 Q2-21 Q2-20 Q2-24 Q2-22 Q3-22 Q3-20 Q3-19 Q1-19 Q3-23 Q3-21 Q4-22 Q4-20 Q4-19 Q2-19 Q4-23 Q4-21 Q1-23 Q1-21 Q1-20 Q1-24 Q1-22 Q2-23 Q2-21 Q2-20 Q2-22 Vehicles M",1,Giống B (câu không có filter): biểu đồ có chú thích parity nhưng không nêu năm.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+C,q21,"If the power grid mix stayed at its 2022 level, would switching to EVs still reduce emissions by 2050, and by how much?","Yes, a net reduction of 2.2 million tons CO2eq by 2050 thanks to EVs' higher energy efficiency","[taking-stock-2025-03-en.pdf p53] Switching from ICE to electric vehicles could generate significant emissions reductions, even with the current power grid mix, due to the latter’s much higher energy efficiency. If the grid mix remained unchanged from 2022’s level, the e-mobility transition alone would still generate a net emissions reduction of 2.2 million tons CO2eq by 2050 thanks to EVs’ higher energy efficiency. In addition, if 2.5 Impact on GHG emissions Figure 2.5.
+---
+[taking-stock-2025-03-en.pdf p53] Beyond 2030 and particularly from 2035, emission reduction impacts will rapidly scale-up as the e-mobility transition shifts from 2Ws to passenger cars, trucks, and intercity buses. Assuming all stated EV uptake targets included in Decision 876 materialize, total GHG emission reductions achieved by the transition would total around 226 MtCO2eq by 2050, representing a 60 percent reduction from the Nationally Determined Contribution (NDC) baseline scenario for transport emissions. Under ADS, total emission reductions could be slightly higher at 249 MtCO2eq, representing a 66 percent reduction from the baseline.
+---
+[taking-stock-2025-03-en.pdf p54] 44 I TAKING STOCK MARCH 2025 Figure 2.6. Emissions in e-mobility transition through to 2030 under BAU, SPS, and ADS (MtCO2eq) -14 -12 -10 -8 -6 -4 -2 0 2 4 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 Emissions Avoided from ICE Fuel Combustion - BAU Emissions Avoided from ICE Fuel Combustion -SPS Emissions Avoided from ICE Fuel Combustion - ADS Emissions Added from Electricity G/D for EVs - BAU Emissions Added from Electricity G/D for Evs - SPS Emissions Added from Electricity G/D for Evs - ADS Source: World Bank calculations greening of the power grid is fully achieved as per PDP8, net emission reductions from the transition would be 5.3 million tons CO2eq by 2050 (Figure 2.6).",2,Giống B: #1 chứa đủ câu bằng chứng.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+C,q22,"Under Decision 876, what share of urban vehicles and of urban buses and taxis must use electricity or green energy by 2030?",50 percent of urban vehicles and 100 percent of urban buses and taxis,"[taking-stock-2025-03-en.pdf p43] Responding to environmental and economic imperatives, the government has set targets for electric mobility (-mobility) by 2050 related to electrification of vehicle stocks, production, and charging infrastructure. In July 2022, the prime minister approved Decision No.876/QD-TTg setting targets to transition the road transportation sector towards e-mobility through use of EVs, namely 50 percent of urban vehicles and 100 percent of urban buses and taxis to be powered by electricity or green energy by 2030 and subsequently 100 percent of all road vehicles by 2050. The decision also sets targets on charging infrastructure network development and EV production and assembly (Table 2.1).
+---
+[taking-stock-2025-03-en.pdf p43] Table 2.1. Measures and targets for electrifying the road transport sector in Government Decision 876/QD-TTg Urban Transport General Road At least 50% of urban vehicles use electricity and green energy.
+100% of replaced and newly invested urban buses will use electricity and green energy.
+100% of replaced and newly invested taxis will use electricity and green energy.
+100% of urban buses and taxi will use electricity and green energy.
+Promote the production, assembly, import and use of electric motorized road vehicles.
+Develop charging infrastructure networks.
+Limit the production, assembly and import of cars, motorbikes and mopeds using fossil fuel for domestic use.
+100% of road motorized vehicles will use electricity and green energy.
+---
+[taking-stock-2025-03-en.pdf p46] Given the costly endeavor of converting old fleets into electrical buses (e-buses), for the switch to be financially viable, it must be pursued in parallel with shifting passenger mobility demand from private vehicles.
+Uptake of public transport will need strong policy interventions to address current roadblocks. For Ha Noi and Ho Chi Minh City to achieve their respective mode share targets under Decision No.876, they will need 6,000 and 4,500 more e-buses, respectively by 2030. Key obstacles to achieving these targets include high upfront purchase costs of e-buses vis-à-vis diesel and compressed natural gas ones, the lack of technical and operational frameworks among city governments for battery electric buses and risks of low ridership due to infrastructure and policy gaps.",2,Giống B: #1 chứa đủ bằng chứng.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"
+C,q23,How large was the asset base of life insurers at the end of 2023?,"VND 786 trillion (US$31 billion), about 8 percent of GDP","[taking-stock-2024-08-en.pdf p52] 2.2. Insurance companies Insurance companies could play an impactful role in capital markets, in particular life insurance firms that must invest in long-term instruments to support matching long-term liabilities. By December 2023, the life insurance sector held VND 786 trillion (US$31 billion) in total assets, with a strong average annual growth rate of 20 percent in the last five years. Equivalent to 8 percent of GDP, it is the second largest type of domestic institutional investor in Viet Nam.
+---
+[taking-stock-2024-08-en.pdf p52] Addressing these problems in the corporate securities market will imbue more confidence in insurance companies to diversify which, in turn, will help the corporate securities market grow more healthily.
+Deposits Government bonds Unsecured corporate bonds, shares, and investment funds Secured corporate bonds Capital contributions Real estate Loans Other Total investment assets 249,236 243,252 73,226 26,891 836 67 12,881 8,382 614,771 40.5 39.6 4.4 11.9 0.1 0.0 2.1 0.0 100 VND bnAsset classes Life Insurer Investments % Table 2.2. Investment assets of life insurers, Dec 2022 Source: Insurance Supervisory Authority
+---
+[taking-stock-2025-03-en.pdf p32] Corporate bond issuances rebounded from low levels in 2023, driven by the banking sector’s additional need for funding. Total issuances reached VND443 trillion (US$17.6 billion) in 2024, a 37 percent (y/y) rise. The banking sector accounted for issuances, with 69 percent of total issuances, representing a 103 percent (y/y) annual jump (Figure 1.28). The real estate sector, after a period of dampened activity, experienced a recovery in Q4–2024, which led to 26 percent (y/y) growth in issuances. Other sectors, such as consumer goods and construction, saw negligible issuances. Coupon rates averaged 7.5 percent in Q4–2024, slightly higher than the previous quarter, reflecting a higher proportion of real estate bond issuance with higher yields.",2,Giống B: #1 chứa đủ bằng chứng.,"Claude Opus 5.5 (AI, theo rubric GUIDE §4)"

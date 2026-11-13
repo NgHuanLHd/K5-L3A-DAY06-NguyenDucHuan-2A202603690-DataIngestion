@@ -1,0 +1,46 @@
+{
+  "A": {
+    "chunk_count": 572,
+    "total_chars": 264700,
+    "len_min": 52,
+    "len_mean": 462.8,
+    "len_median": 500.0,
+    "len_max": 500,
+    "chunk_s": 0.0,
+    "embed_s": 44.07,
+    "store_s": 0.49,
+    "reingest_count_before_after": [
+      572,
+      572
+    ],
+    "chunks_over_token_limit": 0,
+    "cost_usd": 0
+  },
+  "B": {
+    "chunk_count": 422,
+    "total_chars": 240605,
+    "len_min": 80,
+    "len_mean": 570.2,
+    "len_median": 618.5,
+    "len_max": 800,
+    "chunk_s": 0.02,
+    "embed_s": 37.58,
+    "store_s": 0.23,
+    "reingest_count_before_after": [
+      422,
+      422
+    ],
+    "chunks_over_token_limit": 0,
+    "cost_usd": 0
+  },
+  "_model": {
+    "name": "intfloat/multilingual-e5-small",
+    "dimensions": 384,
+    "max_tokens": 512,
+    "query_prefix": "query: ",
+    "doc_prefix": "passage: ",
+    "normalize_embeddings": true,
+    "metric": "cosine (pgvector <=>), exact"
+  },
+  "_run_at": "2026-11-13 19:12:33"
+}
