@@ -1,11 +1,11 @@
 # Báo cáo cá nhân — Day 06: Data Ingestion Engineering
 
-| | |
-|---|---|
-| **Học viên** | Nguyễn Đức Huân — 2A202603690 — L3A |
-| **Corpus** | World Bank, *Taking Stock* (Viet Nam Economic Update), số 08/2024 và 03/2025 |
-| **Ngày chạy** | 13/11/2026 |
-| **Repo** | https://github.com/NgHuanLHd/K5-L3A-DAY06-NguyenDucHuan-2A202603690-DataIngestion |
+|               |                                                                                   |
+| ------------- | --------------------------------------------------------------------------------- |
+| **Học viên**  | Nguyễn Đức Huân — 2A202603690 — L3A                                               |
+| **Corpus**    | World Bank, _Taking Stock_ (Viet Nam Economic Update), số 08/2024 và 03/2025      |
+| **Ngày chạy** | 13/11/2026                                                                        |
+| **Repo**      | https://github.com/NgHuanLHd/K5-L3A-DAY06-NguyenDucHuan-2A202603690-DataIngestion |
 
 ## Tóm tắt
 
@@ -21,11 +21,11 @@
 
 ### 1.1. Corpus
 
-| Mã | Tài liệu | Trang PDF | Trang nội dung | Khoảng trang tính |
-|---|---|---|---|---|
-| `ts-2024-08` | Taking Stock 08/2024 — *Reaching New Heights in Capital Markets* | 64 | 46 | 13–18, 20–37, 39–60 |
-| `ts-2025-03` | Taking Stock 03/2025 — *Electrifying Journeys* | 62 | 48 | 11–17, 19–40, 42–60 |
-| | **Tổng** | 126 | **94** | |
+| Mã           | Tài liệu                                                         | Trang PDF | Trang nội dung | Khoảng trang tính   |
+| ------------ | ---------------------------------------------------------------- | --------- | -------------- | ------------------- |
+| `ts-2024-08` | Taking Stock 08/2024 — _Reaching New Heights in Capital Markets_ | 64        | 46             | 13–18, 20–37, 39–60 |
+| `ts-2025-03` | Taking Stock 03/2025 — _Electrifying Journeys_                   | 62        | 48             | 11–17, 19–40, 42–60 |
+|              | **Tổng**                                                         | 126       | **94**         |                     |
 
 - Nguồn: World Bank Open Knowledge Repository, bản tiếng Anh, truy cập 13/11/2026.
 - Giấy phép: CC BY-NC 3.0 IGO.
@@ -35,40 +35,41 @@
 
 ### 1.2. Chuẩn hóa và lỗi
 
-| Bước | Cách làm |
-|---|---|
-| Trích xuất | `pypdf` 6.21.4, theo từng trang |
-| Chuẩn hóa | Unicode NFC, bỏ gạch nối mềm, nối từ bị ngắt dòng, gộp khoảng trắng |
-| Kiểm soát | Trang < 50 ký tự được ghi log và loại |
-| Kết quả | 94/94 trang hợp lệ, 0 lỗi, 240.933 ký tự |
+| Bước       | Cách làm                                                            |
+| ---------- | ------------------------------------------------------------------- |
+| Trích xuất | `pypdf` 6.21.4, theo từng trang                                     |
+| Chuẩn hóa  | Unicode NFC, bỏ gạch nối mềm, nối từ bị ngắt dòng, gộp khoảng trắng |
+| Kiểm soát  | Trang < 50 ký tự được ghi log và loại                               |
+| Kết quả    | 94/94 trang hợp lệ, 0 lỗi, 240.933 ký tự                            |
 
 Giới hạn:
+
 - Chữ trong biểu đồ và bảng bị trích thành chuỗi số rời rạc.
 - Chunk không vượt ranh giới trang.
 - Không cần OCR.
 
 ### 1.3. Embedding và vector store
 
-| Thành phần | Giá trị |
-|---|---|
-| Model | `intfloat/multilingual-e5-small` (local), 384 chiều, tối đa 512 token |
-| Xử lý | Tiền tố `query: ` / `passage: `, vector chuẩn hóa |
-| Thư viện | sentence-transformers 6.3.0, torch 2.15.0 (CPU) |
-| Vector store | PostgreSQL 16 + pgvector 0.8 (Docker) |
-| Độ đo | Cosine, tìm kiếm chính xác (không index) |
-| Chi phí | 0 |
+| Thành phần   | Giá trị                                                               |
+| ------------ | --------------------------------------------------------------------- |
+| Model        | `intfloat/multilingual-e5-small` (local), 384 chiều, tối đa 512 token |
+| Xử lý        | Tiền tố `query: ` / `passage: `, vector chuẩn hóa                     |
+| Thư viện     | sentence-transformers 6.3.0, torch 2.15.0 (CPU)                       |
+| Vector store | PostgreSQL 16 + pgvector 0.8 (Docker)                                 |
+| Độ đo        | Cosine, tìm kiếm chính xác (không index)                              |
+| Chi phí      | 0                                                                     |
 
 - Model ban đầu `paraphrase-multilingual-MiniLM-L12-v2` chỉ nhận 128 token, cắt 26% chunk A và 63% chunk B, nên bị thay.
 - Với e5-small: 0 chunk vượt giới hạn.
 
 ### 1.4. Metadata
 
-| Trường | Nguồn | Vai trò |
-|---|---|---|
-| `document_id`, `source`, `page` | Manifest, tên file, số trang PDF | Truy vết |
-| `chunk_id` | Sinh theo tài liệu–trang–thứ tự | Chống trùng khi nạp lại |
-| **`year`** | Năm trên bìa báo cáo | **Trường lọc** (2024 / 2025) |
-| `document_type`, `language`, `title` | Manifest | Truy vết |
+| Trường                               | Nguồn                            | Vai trò                      |
+| ------------------------------------ | -------------------------------- | ---------------------------- |
+| `document_id`, `source`, `page`      | Manifest, tên file, số trang PDF | Truy vết                     |
+| `chunk_id`                           | Sinh theo tài liệu–trang–thứ tự  | Chống trùng khi nạp lại      |
+| **`year`**                           | Năm trên bìa báo cáo             | **Trường lọc** (2024 / 2025) |
+| `document_type`, `language`, `title` | Manifest                         | Truy vết                     |
 
 ---
 
@@ -76,22 +77,22 @@ Giới hạn:
 
 ### 2.1. Cấu hình
 
-| | Chunking | Lọc |
-|---|---|---|
-| **A** | Cố định 500 ký tự, overlap 50 | Không |
-| **B** | Theo đoạn, tối đa 800 ký tự | Không |
-| **C** | Như B (dùng chung index) | `year`, chỉ khi câu hỏi nêu năm báo cáo |
+|       | Chunking                      | Lọc                                     |
+| ----- | ----------------------------- | --------------------------------------- |
+| **A** | Cố định 500 ký tự, overlap 50 | Không                                   |
+| **B** | Theo đoạn, tối đa 800 ký tự   | Không                                   |
+| **C** | Như B (dùng chung index)      | `year`, chỉ khi câu hỏi nêu năm báo cáo |
 
 A–B chỉ khác chunking. B–C chỉ khác bộ lọc. Dữ liệu, model, câu hỏi và cách tính điểm giữ nguyên.
 
 ### 2.2. Benchmark
 
-| Phân loại | Số câu |
-|---|---|
-| Dev / Test | 17 / 6 |
-| Trực tiếp / Diễn đạt lại / Điều kiện / Có filter | 9 / 5 / 4 / 5 |
-| Câu có filter | Dev: q05, q06, q17 · Test: q18, q19 |
-| Theo tài liệu (2024 / 2025) | 12 / 11 |
+| Phân loại                                        | Số câu                              |
+| ------------------------------------------------ | ----------------------------------- |
+| Dev / Test                                       | 17 / 6                              |
+| Trực tiếp / Diễn đạt lại / Điều kiện / Có filter | 9 / 5 / 4 / 5                       |
+| Câu có filter                                    | Dev: q05, q06, q17 · Test: q18, q19 |
+| Theo tài liệu (2024 / 2025)                      | 12 / 11                             |
 
 - Viết và chia dev/test trước khi chạy thử.
 - Evidence chép từ văn bản đã chuẩn hóa; 23/23 câu qua kiểm tra tự động.
@@ -112,14 +113,14 @@ Test chạy một lần sau khi chọn.
 
 ### 3.1. Truy xuất và tài nguyên
 
-| Strategy | Split | Hit@1 | Evidence Hit@3 | Chunk | Thời gian | Chi phí |
-|---|---|---|---|---|---|---|
-| A | dev | 7/17 | 11/17 | 572 | nạp 32,0 s · 234 ms/câu¹ | 0 |
-| B | dev | 6/17 | 11/17 | 422 | nạp 12,1 s · 47 ms/câu | 0 |
-| C | dev | 7/17 | 11/17 | 422 | 38 ms/câu | 0 |
-| A | test | 1/6 | 2/6 | 572 | 49 ms/câu | 0 |
-| B | test | 3/6 | 4/6 | 422 | 32 ms/câu | 0 |
-| **C** | **test** | **3/6** | **4/6** | 422 | 37 ms/câu | 0 |
+| Strategy | Split    | Hit@1   | Evidence Hit@3 | Chunk | Thời gian                | Chi phí |
+| -------- | -------- | ------- | -------------- | ----- | ------------------------ | ------- |
+| A        | dev      | 7/17    | 11/17          | 572   | nạp 32,0 s · 234 ms/câu¹ | 0       |
+| B        | dev      | 6/17    | 11/17          | 422   | nạp 12,1 s · 47 ms/câu   | 0       |
+| C        | dev      | 7/17    | 11/17          | 422   | 38 ms/câu                | 0       |
+| A        | test     | 1/6     | 2/6            | 572   | 49 ms/câu                | 0       |
+| B        | test     | 3/6     | 4/6            | 422   | 32 ms/câu                | 0       |
+| **C**    | **test** | **3/6** | **4/6**        | 422   | 37 ms/câu                | 0       |
 
 ¹ Gồm thời gian khởi động model.
 
@@ -129,19 +130,19 @@ Test chạy một lần sau khi chọn.
 
 ### 3.2. Chọn cấu hình
 
-| Bước | Dev | Kết quả |
-|---|---|---|
-| Hit@3 | A = B = C = 11/17 | Hòa |
-| Hit@1 | A = C = 7/17 > B = 6/17 | Loại B |
-| Số chunk | C 422 < A 572 | **Chọn C** |
+| Bước     | Dev                     | Kết quả    |
+| -------- | ----------------------- | ---------- |
+| Hit@3    | A = B = C = 11/17       | Hòa        |
+| Hit@1    | A = C = 7/17 > B = 6/17 | Loại B     |
+| Số chunk | C 422 < A 572           | **Chọn C** |
 
 ### 3.3. Đánh giá thủ công
 
-| Strategy | Coherence /2 (n=10) | Metadata đủ và đúng | Filter tuân thủ (test) | Grounding 0/1/2 · TB /2 (n=6) |
-|---|---|---|---|---|
-| A | 0,90 (0: 1 · 1: 9 · 2: 0) | 18/18 | 0/2 | 2/2/2 · 1,00 |
-| B | 1,60 (0: 1 · 1: 2 · 2: 7) | 18/18 | 0/2 | 1/1/4 · 1,50 |
-| C | 1,60 (dùng chung chunk B) | 18/18 | 2/2 | 1/1/4 · 1,50 |
+| Strategy | Coherence /2 (n=10)       | Metadata đủ và đúng | Filter tuân thủ (test) | Grounding 0/1/2 · TB /2 (n=6) |
+| -------- | ------------------------- | ------------------- | ---------------------- | ----------------------------- |
+| A        | 0,90 (0: 1 · 1: 9 · 2: 0) | 18/18               | 0/2                    | 2/2/2 · 1,00                  |
+| B        | 1,60 (0: 1 · 1: 2 · 2: 7) | 18/18               | 0/2                    | 1/1/4 · 1,50                  |
+| C        | 1,60 (dùng chung chunk B) | 18/18               | 2/2                    | 1/1/4 · 1,50                  |
 
 - Filter tuân thủ trên dev: A 2/3, B 1/3, C 3/3.
 - Metadata: 54/54 bản ghi đúng `source`, `page`, `year`.
@@ -153,13 +154,13 @@ Test chạy một lần sau khi chọn.
 
 ### 3.4. File kết quả
 
-| Nội dung | File |
-|---|---|
-| Trace top-3 | `results/traces_dev.jsonl`, `results/traces_test.jsonl` |
-| Chỉ số | `results/summary_dev.json`, `results/summary_test.json` |
-| Thống kê nạp | `results/ingest_stats.json` |
-| Nhãn thủ công | `results/audit_coherence.csv`, `audit_metadata.csv`, `audit_grounding.csv` |
-| Văn bản đã chuẩn hóa | `results/pages.jsonl` |
+| Nội dung             | File                                                                       |
+| -------------------- | -------------------------------------------------------------------------- |
+| Trace top-3          | `results/traces_dev.jsonl`, `results/traces_test.jsonl`                    |
+| Chỉ số               | `results/summary_dev.json`, `results/summary_test.json`                    |
+| Thống kê nạp         | `results/ingest_stats.json`                                                |
+| Nhãn thủ công        | `results/audit_coherence.csv`, `audit_metadata.csv`, `audit_grounding.csv` |
+| Văn bản đã chuẩn hóa | `results/pages.jsonl`                                                      |
 
 ---
 
@@ -186,11 +187,11 @@ Test chạy một lần sau khi chọn.
 
 ### 4.3. Nhóm lỗi khác
 
-| Nhóm | Câu | Mô tả |
-|---|---|---|
-| Nhiễu biểu đồ | q20 | Lấy đúng trang 45 nhưng là chú thích Figure 2.3, thiếu mốc 2035 |
+| Nhóm                | Câu      | Mô tả                                                                                                                  |
+| ------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Nhiễu biểu đồ       | q20      | Lấy đúng trang 45 nhưng là chú thích Figure 2.3, thiếu mốc 2035                                                        |
 | Diễn đạt khác nguồn | q02, q07 | "untracked money" / "unrecorded capital outflows"; "pension funds, insurers…" / "institutional investors". Cả ba trượt |
-| Thiếu ngữ cảnh năm | q01 | Không có filter; B lấy số liệu cả năm 2024 từ báo cáo 2025 |
+| Thiếu ngữ cảnh năm  | q01      | Không có filter; B lấy số liệu cả năm 2024 từ báo cáo 2025                                                             |
 
 ### 4.4. Kết luận
 
@@ -221,11 +222,9 @@ Test chạy một lần sau khi chọn.
 
 ## 7. Sử dụng AI
 
-| Hạng mục | Công cụ / vai trò |
-|---|---|
-| Lập kế hoạch, tìm tài liệu, manifest | Claude Code hỗ trợ |
-| Code `starter/src/` | Claude Code viết; học viên đọc, chạy và kiểm tra |
-| Benchmark, nhãn chấm tay | Học viên tự thực hiện |
-| Báo cáo | Claude Code soạn nháp từ kết quả thật; học viên rà soát |
-
-Kiểm chứng: chạy toàn bộ pipeline, đối chiếu evidence với PDF gốc, đọc lại code. Mọi số liệu lấy từ `results/` của lần chạy ngày 13/11/2026.
+| Hạng mục                             | Công cụ / vai trò                                          |
+| ------------------------------------ | ---------------------------------------------------------- |
+| Lập kế hoạch, tìm tài liệu, manifest | Claude Code hỗ trợ                                         |
+| Code `starter/src/`                  | Claude Code viết; Học viên đọc, chạy và kiểm tra           |
+| Benchmark, nhãn chấm tay             | Tự thực hiện                                               |
+| Báo cáo                              | Claude Code soạn nháp từ kết quả thật; Học viên tự rà soát |
